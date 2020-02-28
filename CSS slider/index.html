@@ -4,15 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>CSS SLIDER</title>
 </head>
 <body>
-  <header>
-<h1>
-  Hello World
-</h1>
+<div class="container">
+  <input type="radio" name="images" id="i1">
+  <input type="radio" name="images" id="i2">
+  <input type="radio" name="images" id="i3">
+  <input type="radio" name="images" id="i4">
 
 
-  </header>
+  <div class="slider-img" id="one">
+    <img src="img/fittter01.png" alt="fittter">
+
+    <label for="i4" class="pre"></label>
+    <label for="i2" class="nxt"></label>
+
+  </div>
+
+  <div class="slider-img" id="two">
+    <img src="img/4R0A0121-1.jpg" alt="bowling">
+
+    <label for="i1" class="pre"></label>
+    <label for="i3" class="nxt"></label>
+  </div>
+
+  <div class="slider-img" id="three">
+    <img src="img/brooks-leibee-27QcqVqgVg4-unsplash.jpg" alt="cap-boy">
+
+    <label for="i2" class="pre"></label>
+    <label for="i4" class="nxt"></label>
+  </div>
+
+  <div class="slider-img" id="four">
+    <img src="img/4R0A0405-1.jpg" alt="nagano-summer">
+
+    <label for="i3" class="pre"></label>
+    <label for="i1" class="nxt"></label>
+  </div>
+
+  <div class="nav">
+    <label class="dots" id="dot1" for="i1"></label>
+    <label class="dots" id="dot2" for="i2"></label>
+    <label class="dots" id="dot3" for="i3"></label>
+    <label class="dots" id="dot4" for="i4"></label>
+  </div>
+
+
+
+</div>
 </body>
 </html>
