@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.gallarey{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+}
+
+
+.gallarey img {
+  width: 100%;
+}
