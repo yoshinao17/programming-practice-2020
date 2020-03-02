@@ -130,10 +130,40 @@ margin-top: 1px;
   
 }
 
+a{
+position:fixed;
+bottom: 10px;
+right: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+border-radius: 20%;
+background: #e9dae6;
+opacity: 0.6;
+
+}
+
+.arrow{
+display: inline-block;
+width: 10px;
+height: 10px;
+border-top: 3px solid #000;
+border-right: 3px solid #000;
+transform: rotate(-45deg);
+margin-top: 5px;
+
+
+}
+
 body{
   width: 100%;
 }
 
 
+html{
+scroll-behavior: smooth;
 
+}
 
