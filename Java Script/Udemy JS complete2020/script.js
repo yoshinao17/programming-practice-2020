@@ -9,3 +9,8 @@ console.log(fullAge);
 
 job = 'Teacher';
 console.log(job);
+
+var firstName ='John';
+var age = 28;
+
+console.log(firstName + ''+ age);
