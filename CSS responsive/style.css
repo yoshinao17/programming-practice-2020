@@ -7,7 +7,7 @@ box-sizing: border-box;
 
 header{
 
-justify-content: space-between;
+
 padding: 20px;
 top: 0;
 transition: .5s;
@@ -18,10 +18,18 @@ height:1px;
 .nav-bar{
 overflow: hidden;
 z-index: 999;
-margin-top: -10px;
+margin-top: 15px;
 height: 50px;
-text-align: justify;
+
 text-align: center;
+display: flex;
+width: 100%;
+height: 60px;
+z-index: 1;
+list-style: none;
+text-decoration: none;
+position: fixed;
+
 
 }
 
@@ -29,28 +37,42 @@ text-align: center;
 list-style: none;
 display: flex;
 	flex-flow: row;
-	justify-content: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 0px;
+  
 }
 
 .nav-bar li{
-width:70px;
+width:20%;
 cursor: pointer;
 text-align: center;
-font-size: 17px;
-margin-top: 30px;
+font-size: 15px;
+z-index: 100;
+
 
 }
 
-.nav-bar li:hover{
+.nav-bar li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+  z-index: 100;
+  -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+}
+
+.nav-bar li a:hover{
 background: rgba(236, 5, 5, 0.452);
 font-weight: 2em;
+transform:rotate(5deg);
 }
 
 .logo{
 margin-top: -30px;
 margin-left: -55px;
 width: 13em;
-z-index: 0;
+z-index: 99;
 position:fixed;
 animation-duration: 2s;
   animation-delay: 8s;
@@ -130,18 +152,18 @@ margin-top: 1px;
   
 }
 
-a{
+.scroll{
 position:fixed;
 bottom: 10px;
 right: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 30px;
-height: 30px;
 border-radius: 20%;
-background: #e9dae6;
+background: #ffffff;
 opacity: 0.6;
+width: 20px;
+height: 20px;
 
 }
 
@@ -181,8 +203,8 @@ scroll-behavior: smooth;
 
 }
 
-.box2{
-  -webkit-filter: blur(3px);
+#kasumi2{
+  -webkit-filter: blur(0px);
   filter: blur(0);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
@@ -190,5 +212,5 @@ scroll-behavior: smooth;
 
 #kasumi2:hover{
   -webkit-filter: blur(3px);
-  filter: blur(3px);
+  filter: blur(3);
 }
