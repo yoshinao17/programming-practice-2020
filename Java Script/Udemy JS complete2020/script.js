@@ -74,3 +74,9 @@ console.log(average);
 var x, y;
 x = (3 + 5) * 4 -6; //8*4-6//32-6//26
 console.log(x);
+
+//More Operators
+x *= 2;
+console.log(x);
+x +=10;
+console.log(x);

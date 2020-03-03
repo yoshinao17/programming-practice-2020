@@ -167,3 +167,28 @@ scroll-behavior: smooth;
 
 }
 
+#kasumi1{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+
+}
+
+#kasumi1:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(100);
+
+}
+
+.box2{
+  -webkit-filter: blur(3px);
+  filter: blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#kasumi2:hover{
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
