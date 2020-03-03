@@ -55,7 +55,7 @@
 // // typeof operator
 // console.log(typeof johnOlder);
 // console.log(typeof ageJohn)
-
+/*
 var now = 2018;
 var yearJohn = 1989;
 var fullAge =  18;
@@ -80,3 +80,65 @@ x *= 2;
 console.log(x);
 x +=10;
 console.log(x);
+
+// Coding Challenge1
+
+var massMark = 78; //kg
+var heightMark = 1.69 //meters
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn );
+console.log(BMIMark, BMIJohn);
+
+
+var markHigherBMI = BMIMark > BMIJohn;
+console.log('Is Mark\'s BMI higher than John\'s?' + markHigherBMI );
+
+*/
+
+var firstName = 'John';
+var civilStatus = 'single';
+
+if (civilStatus === 'married'){
+    console.log(firstName + 'is married');
+
+} else{
+  console.log(firstName + ' will hopefully marry soon :)')
+
+}
+
+//if else statement
+var isMarried = true;
+if (isMarried){
+  console.log(firstName + 'is married');
+
+} else{
+console.log(firstName + ' will hopefully marry soon :)')
+}
+
+var massMark = 78; //kg
+var heightMark = 1.69 //meters
+
+var massJohn = 92;
+var heightJohn = 1.85;
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn );
+
+if(BMIMark > BMIJohn){
+  console.log('Mark\'s BMI is higher than John\'s.');
+  
+}else{
+console.log('John\'s BMI is higher than Mark\'s.')
+
+}
+
+
+// var markHigherBMI = BMIMark > BMIJohn;
+// console.log('Is Mark\'s BMI higher than John\'s?' + markHigherBMI );
+
+
+
