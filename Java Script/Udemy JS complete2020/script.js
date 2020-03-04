@@ -144,22 +144,35 @@ console.log('John\'s BMI is higher than Mark\'s.')
 */
 
 //Boolean logic
-var firstName = 'John';
-var age=20;
+// var firstName = 'John';
+// var age=20;
 
-if(age < 13){
-  console.log(firstName + ' is a boy.');
-} else if (age >=13 && age < 20){
-  console.log(firstName + ' is a young man.');
-} else if(age >= 20 && age<30 ){
-  console.log(firstName + ' is a teenager.');
+// if(age < 13){
+//   console.log(firstName + ' is a boy.');
+// } else if (age >=13 && age < 20){
+//   console.log(firstName + ' is a young man.');
+// } else if(age >= 20 && age<30 ){
+//   console.log(firstName + ' is a teenager.');
   
 
-}
+// }
 
-else{
-  console.log(firstName + ' is a man.')
+// else{
+//   console.log(firstName + ' is a man.')
 
-}
+// }
 
+//The ternary operator and switch statements
+
+// var firstName= 'John';
+// var age= 16;
+
+// age >=  18 ? console.log(firstName + 'drinks beer') 
+// : console.log(firstName + ' drinks juice');
+
+
+var firstName='Nao';
+var age='34';
+
+age <= 34 ? console.log(firstName + ' is working hard') : console.log(firstName + ' studies hard.');
 
