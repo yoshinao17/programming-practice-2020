@@ -66,9 +66,14 @@
   }
   
   .nav-bar li a:hover{
-  background: rgba(236, 5, 5, 0.452);
-  font-weight: 2em;
-  transform:rotate(3deg);
+    display: inline-block;
+    padding: .60em 1.5em;
+    border: 2px solid #333;
+    border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(32, 10, 112, 0.301);
   }
   
   .logo{
@@ -242,7 +247,7 @@
   
   height:100%;
   padding: 2em;
-  background-color:#f5e1a1;
+  background-color:rgba(83, 179, 184, 0.582);
   display: flex;
   flex: 1;
   
@@ -275,7 +280,7 @@
   
   .pic-wrapper{
     
-    background-color:#ecce6d;
+    background-color:rgba(83, 179, 184, 0.582);
     background-size: cover;
     display: flex;
     overflow: hidden;
@@ -318,22 +323,63 @@
   width: 50%;
   border-radius: 30px;
   padding: 5px;
-  -moz-transition: -moz-transform 0.5s linear;
-  -webkit-transition: -webkit-transform 0.5s linear;
-  -o-transition: -o-transform 0.5s linear;
-  -ms-transition: -ms-transform 0.5s linear;
-  transition: transform 0.5s linear;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
   
   }
   
   .box02 img:hover{
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  
+    -webkit-filter: grayscale(0);
+    filter: grayscale(100%);}
+
+  .box3-pic{
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(83, 179, 184, 0.582);
+    background-size: cover;
+    overflow: hidden;
+
   }
+
+  .box3-pic img{
+
+    width: 50%;
+  border-radius: 30px;
+  padding: 5px;
+ 
+
+  }
+ #taki{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+  }
+
+#taki:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+
+  }
+
+  #snow{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+  }
+
+#snow:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(100%);
+
+  }
+
+  
   
   @media screen and ( max-width:500px )
   {
@@ -674,6 +720,57 @@
       }
   
   
+      .box3-pic{
+        display: flex;
+        flex:1;
+        justify-content: center;
+        background-color:  rgba(83, 179, 184, 0.582);
+        background-size: cover;
+        overflow: hidden;
+        background-size: cover;
+       width: 150%;
+        min-width: 600px;
+        
+    
+      }
+    
+      .box3-pic img{
+    
+        width: 50%;
+        
+      border-radius: 30px;
+      padding: 5px;
+      
+     
+    
+      }
+     #taki{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+       flex:1;
+      }
+    
+    #taki:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    
+      }
+    
+      #snow{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(0%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+       flex:2;
+      }
+    
+    #snow:hover{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(100%);
+    
+      }
   
   
   
@@ -684,4 +781,3 @@
   
   
   
-  }
