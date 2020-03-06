@@ -171,8 +171,84 @@ console.log('John\'s BMI is higher than Mark\'s.')
 // : console.log(firstName + ' drinks juice');
 
 
-var firstName='Nao';
-var age='34';
+// var firstName='Nao';
+// var age='34';
 
-age <= 34 ? console.log(firstName + ' is working hard') : console.log(firstName + ' studies hard.');
+// //Ternary operator
+// age <= 34 ? console.log(firstName + ' is working hard') : console.log(firstName + ' studies hard.');
+
+
+// var drink= age >= 18 ? 'beer' : 'juice' ;
+// console.log(drink);
+
+//switch statement
+// var job ='cop';
+// switch(job){
+// case'teacher':
+//       console.log(firstName + ' teaches kids how to code.');
+//       break;
+
+// case 'driver' : 
+//      console.log(firstName + ' drives an uber in Lisbon');
+//      break;
+    
+// case 'designer':
+//      console.log(firstName + ' designs beautiful web');
+//      break;
+//      default:
+//      console.log(firstName + ' does something else');
+
+     
+
+// };
+
+// var firstName='Nao';
+// var age= 14;
+// switch(true){
+//   case age < 13:
+//    console.log(firstName + ' is a boy');
+//    break;
+//   case age >= 13 && age <20:
+//   console.log(firstName + ' is a teenager.');
+//   case age>=  20 && age <30:
+//     break;
+//     console.log(firstName + ' is a young man.');
+//     break;
+//     default:
+
+//     console.log(firstName + 'is a man');
+
+// }
+
+// var firstName='Nao';
+// var age='34';
+
+// //Ternary operator
+// age <= 34 ? console.log(firstName + ' is working hard') : console.log(firstName + ' studies hard.');
+
+
+
+
+// var height;
+// height=23;
+
+// if (height || height===0){
+// console.log('Variable is defined');
+// } else {
+// console.log('Variable has not been defined');
+
+// }
+
+// //equality operators
+// if (height == '23'){
+//    console.log('The == operator does type coercion!')
+
+// } 
+
+
+
+
+
+
+
 
