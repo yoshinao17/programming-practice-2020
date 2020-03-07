@@ -245,6 +245,79 @@ console.log('John\'s BMI is higher than Mark\'s.')
 
 // } 
 
+// challenge2
+
+// var firstName = 'John';
+// var totalPoints = 312;
+// var numberGames = 3;
+
+// console.log(89 + 120+ 103);
+// console.log( totalPoints / numberGames); //104 John
+
+// var averageJohn = 104;
+
+
+// var firstName = 'Mike';
+// var totalPoints = "333"
+// var numberGames = '3'
+// console.log(116 + 94 + 123);
+// console.log( totalPoints / numberGames); //111 Mike
+
+// var pointJohn = 104;
+// var pointMike = 111;
+
+// console.log ( pointJohn < pointMike);
+
+
+// if (scoreJohn > scoreMike) {
+//   console.log(' John\'s team wins with ' +  scoreJohn +'poiints' );
+// } else if(scoreMike > scoreJohn) {
+// console.log(' Mike\'s team wins with ' +  scoreMike + ' points ');
+
+// }
+// else{
+// console.log(' There is a draw');
+
+// }
+
+//Functions
+
+
+function calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1948);
+var ageJane = calculateAge(1969);
+console.log(ageJohn, ageMike, ageJane);
+
+function yearUntilRetirement(year, firstName){
+var age= calculateAge(year);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
