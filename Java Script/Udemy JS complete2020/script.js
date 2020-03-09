@@ -361,7 +361,9 @@ console.log(isDesigner);
 
 
 var isTeacher = john.indexOf('teacher') === 5 ? 'John is a teacher': 'John is a designer' ;
-console.log(isTeacher);
+console.log(isTeacher); 
+
+///
 
 
 
