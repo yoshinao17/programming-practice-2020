@@ -319,27 +319,58 @@ console.log('John\'s BMI is higher than Mark\'s.')
 
 //function expression
 
-var whatDoYouDo = function(job, firstName){ switch(job) {
-    case 'teacher':
-      return firstName + ' teaches kids how to code';
 
-    case  'driver':
-      return firstName + ' drives a cab in Lisbon';
-    case 'designer':
-      return firstName + ' designs beautiful websites';
 
-      default:
-        return firstName + ' does somethingelse';
-                         }
-}
+//Array
+//Initialize new array
+var names = ['John', 'Mark', 'Jane'];
+var years = new Array(1990, 1969, 1948);
+console.log(names[0]);
+console.log(names.length);
+console.log(years[1])
 
-console.log ( whatDoYouDo( 'teacher', 'John'));
+names[1] = "Ben";
+console.log(names);
+//Mutate arrray data
+names[5]= 'Mary';
+names[names.length]= 'Mary';
+console.log(names);
 
-console.log(whatDoYouDo('driver', 'Yoko'));
+//Different data types
+var john = ['John', 'Smith', 1990, 'teacher', false];
 
-console.log(whatDoYouDo('designer', 'Nao'));
+john.push('blue');
+john.unshift('Mr.');
+console.log(john);
 
-console.log(whatDoYouDo('futsal','Yuto'));
+john.pop()
+john.pop()
+john.pop()
+console.log(john);
+
+john.push('futsal');
+john.unshift('Apple');
+john.shift();
+john.push('teacher');
+console.log(john);
+
+console.log(john.indexOf("Mr."));
+
+var isDesigner = john.indexOf('designer') === -1 ? 'John is Not a designer': 'John is a designer' ;
+console.log(isDesigner);
+
+
+var isTeacher = john.indexOf('teacher') === 5 ? 'John is a teacher': 'John is a designer' ;
+console.log(isTeacher);
+
+
+
+
+
+
+
+
+
 
 
 
