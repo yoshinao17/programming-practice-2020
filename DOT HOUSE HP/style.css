@@ -4,7 +4,10 @@
   box-sizing: border-box;
   
   }
-  
+  img{
+    align-items: center;
+  }
+
   header{
   
   
@@ -93,7 +96,9 @@
     transition-duration: 1.5s;
   }
 
- 
+ .bogBox{
+  align-items:center
+ }
   
   .wrapper{
   
@@ -406,7 +411,7 @@ footer{
   text-align: center;
 }
   
-  @media screen and ( max-width:600px )
+  @media screen and ( max-width:380px )
   {
     *{
       margin: 0;
@@ -416,14 +421,18 @@ footer{
       }
       body{
         max-width: 100%;
-        min-width: 600px;
+        min-width: 380px;
       }
 
       img{
         max-width: 100%;
         height: auto;
+        align-items: center;
       }
       
+      .bigBox{
+        align-items:center
+      }
 
       header{
       
@@ -465,10 +474,10 @@ footer{
       
       .nav-bar li{
       display: flex;
-     padding: 0px;
+     padding: 5px;
       cursor: pointer;
       text-align: center;
-      font-size: 18px;
+      font-size: 15px;
       z-index: 100;
       font-family: 'Open Sans Condensed', sans-serif;
       color: rgb(3, 2, 2);
@@ -497,8 +506,8 @@ footer{
       
       .logo{
       margin-top: 5px;
-      margin-left: 5px;
-      width: 5em;
+      margin-left: 3px;
+      width: 4em;
       
       position:fixed;
       animation-duration: 2s;
@@ -516,6 +525,7 @@ footer{
       
       
      width: 100%;
+     max-width: 380px;
       
       
   
@@ -527,8 +537,7 @@ footer{
       
       
       .img-info{
-       display: grid;
-       grid-template-columns: 1,1fr;
+       
         font-family: "kokoro";
        font-size: 60px;
         
@@ -560,35 +569,46 @@ footer{
       
       
       .photo-show{
-        
+        position: grid;
+        grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
+      width: 100%;
       margin-top: 0px;
       justify-content: center;
-       
-      
+      align-items: center;
+      align-content: center;
+      max-width: 380px;
       }
       
       
       .photo-show img{
-       width: 100%;
+
+        
+    width: 100%;
+        max-width: 380px;
+       padding: 2px;
+       background-color: #e99595;
+       background-size: cover;
+    text-align: center;
+    align-items: center;
+      
         border-radius: 20px;
-        justify-content: center;
+      
       
       }
 
     
 
       .photo-show{
-      
-     
-    
+      max-width: 380px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    text-align: center;
         
-       padding: 20px;
+       padding: 5px;
        background-color: #e99595;
        background-size: cover;
-    
-      width: 100%;
 
-        
       }
       
       .scroll{
@@ -727,6 +747,7 @@ footer{
         overflow: hidden;
         background-size: cover;
        width: 100%;
+       align-items: center;
 
         
     
@@ -738,7 +759,7 @@ footer{
         
       border-radius: 30px;
       padding: 5px;
-      
+      align-items: center;
      
     
       }
