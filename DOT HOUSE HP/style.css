@@ -119,14 +119,14 @@
    height: 100%;
    min-width: 100px;
    max-width: 4000px;
-   background:linear-gradient(135deg, rgb(59, 72, 175) 0%, rgb(59, 72, 175) 31%,rgb(55, 66, 150) 31%, rgb(55, 66, 150) 46%,rgb(51, 60, 126) 46%, rgb(51, 60, 126) 56%,rgb(48, 54, 101) 56%, rgb(48, 54, 101) 83%,rgb(44, 48, 77) 83%, rgb(44, 48, 77) 93%,rgb(40, 42, 52) 93%, rgb(40, 42, 52) 100%);
+background-image: url(./img/Washi-Blueapanese-paper_00495.jpg);
   background-size: cover;
   
   }
   
   .img-info h2{
   padding:30px 30px 20px ;
-  font-family: Monoton;
+  font-family: "Monoton";
   font-size: 50px;
   line-height: 55px;
   text-align: center;
@@ -142,13 +142,14 @@
   .img-info p{
   padding: 10px 40px 10px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 40px;
   width:100%;
-  font-family: 'kokoro';
+  font-family: 'M PLUS 1p', sans-serif;
+
   height: 100%;
   justify-content: center;
-  color: #e9dbdb;
+  color: #020202;
   
   }
   
@@ -170,7 +171,7 @@
     grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
     
    padding: 30px;
-   background-color: #dfe09c;
+   background-image: url(img/Washi-Yellow-japanese-paper_00024.jpg);
    background-size: cover;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -225,7 +226,7 @@
   text-align: center;
   height:100%;
   padding: 30px;
-  background-color:rgba(83, 179, 184, 0.582);
+  background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
   display: flex;
   flex: 1;
   justify-content: center;
@@ -235,13 +236,14 @@
   }
   
   .page2 section p{
-  color: #ffffff;
+  color: #0f0f0f;
   padding: 10px 40px 10px;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   width:100%;
-  font-family: "kokoro";
+  font-family: 'M PLUS 1p', sans-serif;
+
   
   
   
@@ -261,7 +263,7 @@
   
   .pic-wrapper{
     
-    background-color:rgba(83, 179, 184, 0.582);
+    background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
     background-size: cover;
     display: flex;
     overflow: hidden;
@@ -272,7 +274,7 @@
   .pic-wrapper img{
   width: 50%;
   border-radius: 30px;
-  padding: 5px;
+  padding: 20px;
   transition: .5s;
   -moz-transition: -moz-transform 0.5s linear;
   -webkit-transition: -webkit-transform 0.5s linear;
@@ -295,7 +297,7 @@
   .box02{
   display: flex;
   justify-content: center;
-  background-color:  rgba(83, 179, 184, 0.582);
+  background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
   background-size: cover;
   overflow: hidden;
   align-items: flex-start;
@@ -320,7 +322,7 @@
   .box3-pic{
     display: flex;
     justify-content: center;
-    background-color:  rgba(83, 179, 184, 0.582);
+    background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
     background-size: cover;
     overflow: hidden;
     align-items: flex-start;
@@ -331,7 +333,7 @@
 
     width: 50%;
   border-radius: 30px;
-  padding: 5px;
+  padding: 20px;
  
 
   }
@@ -387,10 +389,12 @@ flex-wrap: wrap;
 }
 
 .facility{
-  font-family: 'kokoro';
+  font-family: 'M PLUS 1p', sans-serif;
+
   padding: 20px;
   text-align: center;
   font-size: 15px;
+  background-image: url(img/Washi-White-japanese-paper_00039.jpg)
  
 }
 
@@ -400,22 +404,24 @@ flex-wrap: wrap;
 }
 
 .booking{
-  font-family: 'kokoro';
+  font-family: 'M PLUS 1p', sans-serif;
+
   padding: 20px;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 10px;
   color:rgb(255, 255, 255);
-  background-color: #414b85;
+  background-image: url(./img/Washi-Black-japanese-paper_00119.jpg)
 }
 .booking h2{
   text-decoration: underline;
   font-size: 35px;
   padding: 2px;
+  color: #000;
 }
 
 a{
-  color: rgb(162, 162, 209);
+  color: rgb(0, 0, 66);
   text-decoration: underline;
 }
 
@@ -552,28 +558,31 @@ footer{
       }
       
       .img-info p{
-        font-size: 15px;
-        font-family: "kokoro";
+        font-size: 16px;
+        font-family: 'M PLUS 1p', sans-serif;
+
         padding: 5px;
       }
       
       .img-info{
        
-        font-family: "kokoro";
+        font-family: 'M PLUS 1p', sans-serif;
+
        font-size: 60px;
         
        
         
       
       
-       background:linear-gradient(135deg, rgb(59, 72, 175) 0%, rgb(59, 72, 175) 31%,rgb(55, 66, 150) 31%, rgb(55, 66, 150) 46%,rgb(51, 60, 126) 46%, rgb(51, 60, 126) 56%,rgb(48, 54, 101) 56%, rgb(48, 54, 101) 83%,rgb(44, 48, 77) 83%, rgb(44, 48, 77) 93%,rgb(40, 42, 52) 93%, rgb(40, 42, 52) 100%);
+      background-image: url(img/Washi-Blueapanese-paper_00495.jpg);
       background-size: cover;
       
       }
       
       .img-info h2 {
       padding:30px 30px 20px ;
-      font-family: Monoton;
+      font-family: 'M PLUS 1p', sans-serif;
+
       font-size: 40px;
       line-height:50px;
       text-align: center;
@@ -704,14 +713,16 @@ footer{
    
     
       justify-content: center;
-      font-family: "kokoro";
+      font-family: 'M PLUS 1p', sans-serif;
+
       
       }
       
      .page2 section p{
-       color: rgb(255, 255, 255);
-       font-family: "kokoro";
-       font-size: 12px;
+       color: rgb(2, 2, 2);
+       font-family: 'M PLUS 1p', sans-serif;
+
+       font-size: 15px;
        padding: 5px;
      }
       
@@ -834,8 +845,9 @@ footer{
         .facility P{
         
          
-          font-size: 10px;
-          font-family: 'kokoro';
+          font-size: 13px;
+          font-family: 'M PLUS 1p', sans-serif;
+
           width: 100%;
          margin-bottom: 0px;
          padding: 2px;
@@ -848,10 +860,11 @@ footer{
         .booking{
           width:100%;
           color: rgb(255, 255, 255);
-          font-family: 'kokoro';
-          padding: 2px;
+          font-family: 'M PLUS 1p', sans-serif;
+
+          padding: 5px;
           text-align: center;
-          font-size: 10px;
+          font-size: 14px;
           margin-bottom: 10px;
           background-color: #414b85;
         }
@@ -867,8 +880,3 @@ footer{
     
 
   }
-  
-  
-  
-  
-  
