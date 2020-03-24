@@ -229,12 +229,13 @@
   display: flex;
   flex: 1;
   justify-content: center;
+  align-items: flex-start;
   
   
   }
   
   .page2 section p{
-  color: #130b2e;
+  color: #ffffff;
   padding: 10px 40px 10px;
   text-align: center;
   font-size: 15px;
@@ -251,9 +252,10 @@
     justify-content: center ;
     padding:2px;
     margin-bottom: 5px;
-    color: #4b4040;
+    color: #161515;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
+    text-decoration: underline;
   
   }
   
@@ -264,6 +266,7 @@
     display: flex;
     overflow: hidden;
    width: 100%;
+   align-items: flex-start;
   }
   
   .pic-wrapper img{
@@ -295,6 +298,7 @@
   background-color:  rgba(83, 179, 184, 0.582);
   background-size: cover;
   overflow: hidden;
+  align-items: flex-start;
    
   }
   
@@ -319,6 +323,7 @@
     background-color:  rgba(83, 179, 184, 0.582);
     background-size: cover;
     overflow: hidden;
+    align-items: flex-start;
 
   }
 
@@ -389,13 +394,24 @@ flex-wrap: wrap;
  
 }
 
+.facility h2{
+  text-decoration: underline;
+  font-size: 35px;
+}
+
 .booking{
   font-family: 'kokoro';
   padding: 20px;
   text-align: center;
   font-size: 15px;
   margin-bottom: 10px;
-  background-color: rgb(240, 206, 206);
+  color:rgb(255, 255, 255);
+  background-color: #414b85;
+}
+.booking h2{
+  text-decoration: underline;
+  font-size: 35px;
+  padding: 2px;
 }
 
 a{
@@ -411,7 +427,7 @@ footer{
   text-align: center;
 }
   
-  @media screen and ( max-width:380px )
+  @media screen and ( max-width:414px )
   {
     *{
       margin: 0;
@@ -421,7 +437,7 @@ footer{
       }
       body{
         max-width: 100%;
-        min-width: 380px;
+        min-width: 414px;
       }
 
       img{
@@ -525,7 +541,7 @@ footer{
       
       
      width: 100%;
-     max-width: 380px;
+     max-width: 414px;
       
       
   
@@ -535,6 +551,11 @@ footer{
       
       }
       
+      .img-info p{
+        font-size: 15px;
+        font-family: "kokoro";
+        padding: 5px;
+      }
       
       .img-info{
        
@@ -570,13 +591,13 @@ footer{
       
       .photo-show{
         position: grid;
-        grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
+        grid-template-columns:repeat(auto-fit,minmax(414px,1fr));
       width: 100%;
       margin-top: 0px;
       justify-content: center;
       align-items: center;
       align-content: center;
-      max-width: 380px;
+      max-width: 414px;
       }
       
       
@@ -584,9 +605,9 @@ footer{
 
         
     width: 100%;
-        max-width: 380px;
+        max-width: 414px;
        padding: 2px;
-       background-color: #e99595;
+       
        background-size: cover;
     text-align: center;
     align-items: center;
@@ -599,14 +620,14 @@ footer{
     
 
       .photo-show{
-      max-width: 380px;
+      max-width: 414px;
         justify-content: center;
         align-items: center;
         align-content: center;
     text-align: center;
         
        padding: 5px;
-       background-color: #e99595;
+       background-color: #faffcc;
        background-size: cover;
 
       }
@@ -678,34 +699,39 @@ footer{
       text-align: center;
 
       padding: 10px;
-      background-color: rgba(35, 159, 163, 0.582);
+      background-color:#8ac6d1;
       display: flex;
-  
+   
     
       justify-content: center;
       font-family: "kokoro";
-      font-size: 40px;
+      
       }
       
-     
+     .page2 section p{
+       color: rgb(255, 255, 255);
+       font-family: "kokoro";
+       font-size: 12px;
+       padding: 5px;
+     }
       
       .page2 h1{
         text-align: center;
         justify-content: center ;
         padding:2px;
         margin-bottom: 5px;
-        color: #4b4040;
+        color: #000000;
         font-family: 'Open Sans Condensed', sans-serif;
-      
+      text-decoration: underline;
       }
       
       .pic-wrapper{
         
-        background-color: rgba(35, 159, 163, 0.582);
+        background-color: #8ac6d1;
         background-size: cover;
         display: flex;
         overflow: hidden;
-   
+        
        
       }
       
@@ -721,9 +747,9 @@ footer{
       .box02{
       display: flex;
       justify-content: center;
-      background-color: rgba(35, 159, 163, 0.582);
+      background-color: #8ac6d1;
       background-size: cover;
-  
+  margin: 0;
        width: 100%;
     
       }
@@ -736,13 +762,15 @@ footer{
       
       }
       
-  
+  .box3{
+    margin: 0;
+  }
   
       .box3-pic{
         display: flex;
         flex:1;
         justify-content: center;
-        background-color:  rgba(83, 179, 184, 0.582);
+        background-color:  #8ac6d1;
         background-size: cover;
         overflow: hidden;
         background-size: cover;
@@ -782,6 +810,7 @@ footer{
         display: flex;
         flex-direction: row;
         padding:10px;
+        align-items: flex-start;
        
         }
         
@@ -792,7 +821,8 @@ footer{
           width: 20%;
           padding: 10px;
           align-items: center;
-          
+          text-align: center;
+          align-items: flex-start;
           
         }
         
@@ -804,28 +834,34 @@ footer{
         .facility P{
         
          
-          font-size: 15px;
+          font-size: 10px;
           font-family: 'kokoro';
           width: 100%;
          margin-bottom: 0px;
-         padding: 20px;
+         padding: 2px;
          
         }
-        
+        .facility h2{
+          text-decoration: underline;
+        }
+
         .booking{
           width:100%;
-          
+          color: rgb(255, 255, 255);
           font-family: 'kokoro';
-          padding: 20px;
+          padding: 2px;
           text-align: center;
-          font-size: 15px;
+          font-size: 10px;
           margin-bottom: 10px;
-          background-color: rgb(236, 241, 163);
+          background-color: #414b85;
         }
-  
+  .booking h2{
+    font-size:24px;
+    text-decoration: underline;
+  }
   footer{
-    font-size: 10px;
-    padding: 10px;
+    font-size: 8px;
+    padding: 5px;
     justify-content: center;
     text-align: center;
     
