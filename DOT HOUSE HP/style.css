@@ -171,7 +171,7 @@ background-image: url(./img/Washi-Blueapanese-paper_00495.jpg);
     grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
     
    padding: 30px;
-   background-image: url(img/Washi-Yellow-japanese-paper_00024.jpg);
+   background-image: url(img/Washi-White-japanese-paper_00039.jpg);
    background-size: cover;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -226,7 +226,7 @@ background-image: url(./img/Washi-Blueapanese-paper_00495.jpg);
   text-align: center;
   height:100%;
   padding: 30px;
-  background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
+  background-image: url(img/Washi-White-japanese-paper_00039.jpg);
   display: flex;
   flex: 1;
   justify-content: center;
@@ -263,7 +263,7 @@ background-image: url(./img/Washi-Blueapanese-paper_00495.jpg);
   
   .pic-wrapper{
     
-    background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
+    background-image: url(img/Washi-White-japanese-paper_00039.jpg);
     background-size: cover;
     display: flex;
     overflow: hidden;
@@ -297,7 +297,7 @@ background-image: url(./img/Washi-Blueapanese-paper_00495.jpg);
   .box02{
   display: flex;
   justify-content: center;
-  background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
+  background-image: url(img/Washi-White-japanese-paper_00039.jpg);
   background-size: cover;
   overflow: hidden;
   align-items: flex-start;
@@ -322,7 +322,7 @@ background-image: url(./img/Washi-Blueapanese-paper_00495.jpg);
   .box3-pic{
     display: flex;
     justify-content: center;
-    background-image: url(./img/Washi-Green-japanese-paper_00494.jpg);
+    background-image: url(img/Washi-White-japanese-paper_00039.jpg);
     background-size: cover;
     overflow: hidden;
     align-items: flex-start;
