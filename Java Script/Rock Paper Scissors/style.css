@@ -14,6 +14,7 @@ header{
   background: white;
 }
 
+
 header > h1 {
   color: #25272E;
   text-align: center;
@@ -99,3 +100,23 @@ color: white;
  margin-top: 20px;
  font-size: 20px ;
 }
+
+.green-glow{
+  border: 4px solid #a1c5af;
+  box-shadow: 0 0 10px #31b43a;
+  
+  }
+  
+  
+  .red-glow{
+    border: 4px solid #e98686;
+    box-shadow: 0 0 10px #4e2e2d;
+    
+    }
+  
+    .gray-glow{
+      border: 4px solid #838383;
+      box-shadow: 0 0 10px #323332;
+      
+      }
+  
